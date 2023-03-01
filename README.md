@@ -9,7 +9,9 @@ Steps to run:
 1. Download the zip, uncompress
 2. Install the requirements:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 3. Create a folder called `.streamlit` in the same folder and add a file called `secrets.toml` with the below content:
 
@@ -26,4 +28,6 @@ password = "<password>"
 
 4. Execute the program as below:
 
-```streamlit run st_sp_citibike_ex_helper.py 
+```
+streamlit run st_sp_citibike_ex_helper.py
+```
