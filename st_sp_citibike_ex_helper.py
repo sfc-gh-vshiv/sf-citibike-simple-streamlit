@@ -35,7 +35,7 @@ st.set_page_config(
 # Create Session object
 def create_session_object():
     session = Session.builder.configs(
-        st.secrets["snowflake_AOA19049"]).create()
+        st.secrets["snowflake"]).create()
     return session
 
 
